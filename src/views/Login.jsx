@@ -8,11 +8,7 @@ const Login = () => {
 
   const handleLogin = async () => {
     try {
-<<<<<<< HEAD
-      const response = await fetch('https://proyecto-code-prom-front.vercel.app/api/login', {
-=======
-      const response = await fetch('https://proyecto-code-prom-back.vercel.app/?vercelToolbarCode=FhRxZ4bqmAFIU6f', {
->>>>>>> b45cc218a6ab806660cba15dd56c26e5d0dc733d
+      const response = await fetch('https://proyecto-code-prom-back.vercel.app/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
