@@ -71,7 +71,7 @@ const UserView = () => {
       };
 
       try {
-        const response = await fetch('http://localhost:3002/api/user', {
+        const response = await fetch('https://proyecto-code-prom-back.vercel.app/api/user', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
