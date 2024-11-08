@@ -21,7 +21,7 @@ const Register = () => {
       alert('La contraseña no coincide');
     } else {
       try {
-        const response = await fetch('http://localhost:3002/api/register', {
+        const response = await fetch('https://proyecto-code-prom-back.vercel.app/api/register', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

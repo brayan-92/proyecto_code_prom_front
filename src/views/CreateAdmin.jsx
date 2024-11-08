@@ -6,7 +6,7 @@ const CrearAdmin = () => {
 
   const handleCreateAdmin = async () => {
     try {
-      const response = await fetch('http://localhost:3002/api/create-admin', {
+      const response = await fetch('https://proyecto-code-prom-back.vercel.app/api/create-admin', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
