@@ -8,7 +8,7 @@ const AdminView = () => {
   // Ejemplo de datos (puedes reemplazar esto con tu lógica para obtener los ganadores)
   const fetchWinners = async () => {
     try {
-      const response = await fetch('http://localhost:3002/api/canjeados'); // Asegúrate de que la URL sea correcta
+      const response = await fetch('https://proyecto-code-prom-back.vercel.app/api/canjeados'); // Asegúrate de que la URL sea correcta
       const data = await response.json();
       if (response.ok) {
         setWinners(data.winners); // Asumiendo que el servidor retorna una lista de ganadores
